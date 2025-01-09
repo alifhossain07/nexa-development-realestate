@@ -8,7 +8,7 @@ import {
 
 const ChooseUs = () => {
   return (
-    <div className="lg:mt-4 mb-32">
+    <div className=" mb-32">
       <h1 className="text-center font-title font-bold tracking-wider uppercase text-2xl lg:text-4xl">
         Our <span className="text-[#436033]">Commitment</span> to You
       </h1>

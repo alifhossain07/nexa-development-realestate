@@ -22,9 +22,9 @@ const Services = () => {
 
         <div className="w-10/12 mx-auto flex flex-col md:flex-row justify-between gap-8">
           {/* Sell Your Home */}
-          <div className="p-6 bg-white border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
-            <div className="inline-block p-4 border border-gray-300 rounded-tl-xl rounded-br-xl hover:bg-[#b1d39f] transition duration-300 ease-in-out">
-              <Image src={ForSale} alt='' className="w-96 h-60 text-blue-600 hover:text-green-600 transition duration-300 ease-in-out" />
+          <div className="p-6 bg-[#ccd4c8] border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
+            <div className="inline-block w-full p-4 border border-gray-300 rounded-tl-xl rounded-br-xl hover:bg-[#b1d39f] transition duration-300 ease-in-out">
+              <Image src={ForSale} alt='' className="w-full h-60 text-blue-600 hover:text-green-600 transition duration-300 ease-in-out" />
             </div>
             <h3 className="font-title text-2xl font-semibold mt-4 mb-2 text-center hover:text-blue-600 transition duration-300 ease-in-out">
               Sell Your Home
@@ -35,9 +35,9 @@ const Services = () => {
           </div>
 
           {/* Buy a Home */}
-          <div className="p-6 bg-white border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
-            <div className="inline-block p-4 border border-gray-300 rounded-tl-xl rounded-br-xl hover:bg-[#b1d39f] transition duration-300 ease-in-out">
-              <Image src={ForBuy} alt='' className="w-96 text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out" />
+          <div className="p-6 bg-[#ccd4c8] border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
+            <div className="inline-block w-full p-4 border border-gray-300 rounded-tl-xl rounded-br-xl hover:bg-[#b1d39f] transition duration-300 ease-in-out">
+              <Image src={ForBuy} alt='' className="w-[28rem]  text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out" />
             </div>
             <h3 className="font-title text-2xl font-semibold mt-4 mb-2 text-center hover:text-green-600 transition duration-300 ease-in-out">
               Buy a Home
@@ -48,9 +48,9 @@ const Services = () => {
           </div>
 
           {/* Rent a Home */}
-          <div className="p-6 bg-white border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
-            <div className="inline-block p-4 border border-gray-300 rounded-tl-xl rounded-br-xl hover:bg-[#b1d39f] transition duration-300 ease-in-out">
-              <Image src={ForRent} alt='' className="w-96 h-60 text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out" />
+          <div className="p-6 bg-[#ccd4c8] border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
+            <div className="inline-block w-full p-4 border border-gray-300 rounded-tl-xl rounded-br-xl hover:bg-[#b1d39f] transition duration-300 ease-in-out">
+              <Image src={ForRent} alt='' className="w-full h-60 text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out" />
             </div>
             <h3 className="font-title text-2xl font-semibold mt-4 mb-2 text-center hover:text-green-600 transition duration-300 ease-in-out">
               Rent a Home
