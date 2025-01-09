@@ -8,11 +8,11 @@ import {
 
 const ChooseUs = () => {
   return (
-    <div className="mt-10">
-      <h1 className="text-center font-title font-bold tracking-wider uppercase text-4xl">
+    <div className="lg:mt-4 mb-32">
+      <h1 className="text-center font-title font-bold tracking-wider uppercase text-2xl lg:text-4xl">
         Our <span className="text-[#436033]">Commitment</span> to You
       </h1>
-      <p className="font-text text-xl text-center mt-8 mb-8">
+      <p className="font-text text-lg lg:text-xl text-center mt-8 mb-8">
         Your satisfaction is our priority, as we deliver quality, reliable
         service, and a seamless <br /> experience to exceed your expectations
       </p>
