@@ -2,20 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* globals.css or your custom CSS file */
+
+/* Geist Sans for general text */
+.font-title {
+  font-family: var(--font-playfair), sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Geist Mono for monospaced text */
+.font-text {
+  font-family: var(--font-nunito), monospace;
 }
