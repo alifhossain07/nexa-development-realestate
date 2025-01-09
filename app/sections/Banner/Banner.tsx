@@ -1,5 +1,5 @@
 "use client";
-import BannerImage from "@/public/images/banner3.webp";
+import adImage from "@/public/images/ad.webp";
 import { Typewriter } from "react-simple-typewriter";
 import { FaHome, FaBuilding, FaTools, FaStar } from "react-icons/fa";
 
@@ -9,7 +9,7 @@ const Banner = () => {
       <div
         className="relative bg-cover bg-center lg:h-[1000px] h-[950px] flex items-start justify-center hover:opacity-90 transition-opacity duration-300"
         style={{
-          backgroundImage: `url(${BannerImage.src})`,
+          backgroundImage: `url(${adImage.src})`,
           clipPath: "ellipse(80% 50% at 50% 24%)",
           backgroundAttachment: "fixed",
           backgroundPosition: "center 20%", // 20% from the top, adjust as needed

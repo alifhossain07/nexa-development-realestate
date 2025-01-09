@@ -59,7 +59,7 @@ const Header = () => {
                     </ul>
 
                     <li
-                        className="text-lg gap-2 bg-[#436033] px-2 py-1 rounded-3xl text-white flex font-semibold items-center tracking-wider"
+                        className="text-lg gap-2 bg-[#436033] px-2 py-1 rounded-3xl text-white font-text flex font-semibold items-center tracking-wider"
                     >
                         <IoCall /> +88 01716115775
                     </li>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Nunito } from "next/font/google";
 import "./globals.css";
 import Header from "./shared/Header";
+import NexaFooter from "./shared/Footer";
 
 
 const playfairDisplay = Playfair_Display({
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
         <Header></Header>
         {children}
+        <NexaFooter></NexaFooter>
       </body>
     </html>
   );
