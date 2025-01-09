@@ -34,10 +34,10 @@ const Header = () => {
         >
             <div className="flex w-11/12 mx-auto justify-between items-center py-4">
                 {/* Logo and Company Name */}
-                <div className="flex items-center">
-                    <Image src={Logo} alt="logo" width={100} height={100} />
+                <div className="flex items-center gap-4">
+                    <Image className='w-16 lg:w-24' src={Logo} alt="logo" width={100} height={100} />
                     <h1
-                        className={`text-2xl font-title font-bold tracking-wider ${
+                        className={`lg:text-2xl font-title font-bold tracking-wider ${
                             isScrolled ? "text-black" : "text-white"
                         }`}
                     >
