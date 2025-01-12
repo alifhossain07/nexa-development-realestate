@@ -50,14 +50,14 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
-    <div className="w-10/12 mx-auto py-40">
-      <h1 className="lg:text-3xl text-xl font-title text-center  uppercase tracking-wider font-bold  ">
+    <div className="w-10/12 mx-auto py-20 lg:py-40">
+      <h1 data-aos="fade-down" className="lg:text-3xl text-2xl font-title text-center  uppercase tracking-wider font-bold  ">
       Success Stories: <span className="text-green-400">Our Clients’ Journeys
       </span></h1> 
-      <p className="text-xl text-center font-text mt-8 mb-20">Our clients share how Nexa Developments expertise and care made a lasting impact on their living experience.</p>
+      <p data-aos="fade-down"  className="lg:text-xl text-base text-center font-text mt-8 mb-20">Our clients share how Nexa Developments expertise and care made a lasting impact on their living experience.</p>
 
       {/* Marquee Slider */}
-      <Marquee speed={60} pauseOnHover={false} gradient={true} gradientWidth={100}>
+      <Marquee speed={60} pauseOnHover={false} gradient={true} gradientWidth={20}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="flex-shrink-0 w-96 mx-2"> {/* Reduced horizontal margin */}
             <Card className="shadow-lg p-10 h-80 flex flex-col justify-between border border-green-600"> {/* Set fixed height with green border */}

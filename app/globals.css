@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "aos/dist/aos.css";
 /* globals.css or your custom CSS file */
 
 /* Geist Sans for general text */

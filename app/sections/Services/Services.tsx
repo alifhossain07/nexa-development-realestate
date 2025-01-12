@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Services = () => {
   return (
-    <div className="relative bg-cover bg-center lg:h-[800px] flex items-start justify-center transition-opacity duration-300"
+    <div className="relative bg-cover bg-center h-[1700px] lg:h-[800px] flex items-start justify-center transition-opacity duration-300"
       style={{
         backgroundImage: `url(${ServiceImage.src})`,
         backgroundAttachment: "fixed",
@@ -20,7 +20,7 @@ const Services = () => {
           Unlock the Best <span className='text-[#76f333]'>Real Estate</span>  Deals
         </h2>
 
-        <div className="w-10/12 mx-auto flex flex-col md:flex-row justify-between gap-8">
+        <div data-aos="flip-left" className="w-10/12 mx-auto flex flex-col md:flex-row justify-between gap-8">
           {/* Sell Your Home */}
           <div className="p-6 bg-[#ccd4c8] border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
             <div className="inline-block w-full p-4 border border-gray-300 rounded-tl-xl rounded-br-xl hover:bg-[#b1d39f] transition duration-300 ease-in-out">
@@ -35,7 +35,7 @@ const Services = () => {
           </div>
 
           {/* Buy a Home */}
-          <div className="p-6 bg-[#ccd4c8] border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
+          <div data-aos="flip-right" className="p-6 bg-[#ccd4c8] border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
             <div className="inline-block w-full p-4 border border-gray-300 rounded-tl-xl rounded-br-xl hover:bg-[#b1d39f] transition duration-300 ease-in-out">
               <Image src={ForBuy} alt='' className="w-[28rem]  text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out" />
             </div>
@@ -48,7 +48,7 @@ const Services = () => {
           </div>
 
           {/* Rent a Home */}
-          <div className="p-6 bg-[#ccd4c8] border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
+          <div data-aos="flip-left" className="p-6 bg-[#ccd4c8] border rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out">
             <div className="inline-block w-full p-4 border border-gray-300 rounded-tl-xl rounded-br-xl hover:bg-[#b1d39f] transition duration-300 ease-in-out">
               <Image src={ForRent} alt='' className="w-full h-60 text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out" />
             </div>

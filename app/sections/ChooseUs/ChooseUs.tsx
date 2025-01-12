@@ -1,4 +1,5 @@
-import React from "react";
+
+
 import {
   FaTools,
   FaHandshake,
@@ -7,9 +8,10 @@ import {
 } from "react-icons/fa";
 
 const ChooseUs = () => {
+ 
   return (
-    <div className=" mb-32">
-      <h1 className="text-center font-title font-bold tracking-wider uppercase text-2xl lg:text-4xl">
+    <div data-aos="fade-down" className=" mb-32">
+      <h1  className="text-center font-title font-bold tracking-wider uppercase text-2xl lg:text-4xl">
         Our <span className="text-[#436033]">Commitment</span> to You
       </h1>
       <p className="font-text text-lg lg:text-xl text-center mt-8 mb-8">

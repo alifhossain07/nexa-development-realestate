@@ -3,6 +3,7 @@ import { Playfair_Display, Nunito } from "next/font/google";
 import "./globals.css";
 import Header from "./shared/Header";
 import NexaFooter from "./shared/Footer";
+import AOSWrapper from "./components/AOSWrapper";
 
 
 const playfairDisplay = Playfair_Display({
@@ -25,13 +26,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  
   return (
     <html lang="en">
       <body
         className={`${playfairDisplay.variable} ${nunito.variable} antialiased`}
       >
         <Header></Header>
-        {children}
+        <AOSWrapper>{children}</AOSWrapper>
+        
         <NexaFooter></NexaFooter>
       </body>
     </html>

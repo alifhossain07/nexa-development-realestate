@@ -8,13 +8,13 @@ import {
 
 const ContactForm = () => {
   return (
-    <div className="py-32 w-10/12 mx-auto">
+    <div data-aos="fade-down" className="py-32 w-10/12 mx-auto">
       {/* Contact Us Section */}
       <section className="mb-12 text-center">
         <h1 className="text-2xl  lg:text-3xl font-title font-bold uppercase text-black mb-4">
           Contact Nexa <span className='text-green-400'>Developments</span> 
         </h1>
-        <p className="text-xl font-text text-[#6F8478] leading-relaxed max-w-2xl mx-auto">
+        <p className="lg:text-xl text-base font-text text-[#6F8478] leading-relaxed max-w-2xl mx-auto">
           Get in touch with us for inquiries, property details, or to schedule a site visit. We are here to assist you in finding your dream home!
         </p>
       </section>
