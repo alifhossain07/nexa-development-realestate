@@ -6,6 +6,7 @@ import { IoCall } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi"; // For the hamburger icon
 
 import Logo from "@/public/images/logo.png";
+import Link from 'next/link';
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -52,9 +53,9 @@ const Header = () => {
                             isScrolled ? "text-black" : "text-white"
                         }`}
                     >
-                        <li>Home</li>
+                        <li ><Link href="/">Home</Link> </li> 
                         <li>About</li>
-                        <li>Properties</li>
+                        <li><Link href="/properties">Properties</Link></li>
                         <li>Contact</li>
                     </ul>
 
