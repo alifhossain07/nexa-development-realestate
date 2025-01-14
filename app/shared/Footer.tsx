@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const NexaFooter = () => {
   return (
-    <Footer container className="bg-green-100">
+    <Footer container className="bg-green-100 mt-20">
       <div className="w-full">
         <div className="w-11/12 mx-auto">
 {/* Top Section */}

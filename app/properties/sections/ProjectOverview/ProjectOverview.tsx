@@ -19,8 +19,10 @@ const ProjectOverview = () => {
       </p>
 
       <div className="w-10/12 bg-white rounded-3xl shadow-2xl mx-auto my-20 py-10 flex flex-col md:flex-row items-center gap-x-8">
-        {/* Left Side: Project Details */}
-        <div
+
+      <div className="flex flex-col lg:flex-row w-10/12 mx-auto">
+{/* Left Side: Project Details */}
+<div
           data-aos="fade-right"
           className="p-6 w-full md:w-7/12"
         >
@@ -52,11 +54,7 @@ const ProjectOverview = () => {
               <li>Type B: 1230 sqft (Approx.)</li>
             </ul>
           </ul>
-          <button
-            className="mt-8 px-2 py-1 lg:px-6 lg:py-3 bg-[#436033] text-white font-bold rounded-lg shadow-lg hover:bg-[#3a4f2d] transition duration-300"
-          >
-            Learn More
-          </button>
+          
         </div>
 
         {/* Right Side: Project Image */}
@@ -71,6 +69,8 @@ const ProjectOverview = () => {
             layout="responsive"
           />
         </div>
+      </div>
+        
       </div>
     </div>
   );
