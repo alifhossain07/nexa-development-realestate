@@ -5,7 +5,7 @@ import Building2 from "@/public/images/building2.png";
 
 const SpecsMobileVersion = () => {
   return (
-    <div className="py-16 lg:hidden  w-full lg:w-10/12 mx-auto">
+    <div className=" lg:hidden  w-full lg:w-10/12 mx-auto">
       <h1 className="text-center mb-5 text-2xl lg:text-3xl font-bold font-title uppercase tracking-wider">
         Building <span className="text-green-500">Overview and Features</span>
       </h1>

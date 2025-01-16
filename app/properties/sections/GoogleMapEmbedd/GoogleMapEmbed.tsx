@@ -2,7 +2,7 @@ import React from "react";
 
 const GoogleMapEmbed = () => {
   return (
-    <section className="py-24 text-gray-800">
+    <section className="lg:py-24 mb-32 text-gray-800">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <h2 className="text-center font-title mb-20 tracking-wider uppercase text-3xl font-bold  ">
           Find Us on <span className='text-green-500'>Google Map</span> 
