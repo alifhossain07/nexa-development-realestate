@@ -7,7 +7,7 @@ import Building2 from "@/public/images/building2.png";
 
 const Specs = () => {
   return (
-    <div className="py-16 mb-28 w-full lg:w-10/12 mx-auto h-[450px] md:h-[400px] xl:h-[500px] 2xl:h-[600px] ">
+    <div className="py-16 hidden lg:block mb-28 w-full lg:w-10/12 mx-auto h-[450px] md:h-[400px] xl:h-[500px] 2xl:h-[600px] ">
         <h1 className="text-center mb-5 text-3xl font-bold font-title uppercase tracking-wider">Building <span className="text-green-500">Overview and Features</span> </h1>
       <Carousel slideInterval={5000} theme={{
             root: {

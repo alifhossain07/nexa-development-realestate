@@ -2,7 +2,7 @@ import NexaViews1 from "@/public/images/NexaView3.webp";
 
 const NexaViews = () => {
   return (
-    <div>
+    <div className="py-16">
       <div
         className="w-full md:h-[700px] lg:h-[800px] bg-cover bg-center"
         style={{
