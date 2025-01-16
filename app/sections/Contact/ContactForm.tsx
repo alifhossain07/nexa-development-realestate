@@ -58,7 +58,7 @@ const ContactForm = () => {
           </div>
         ))}
       </section>
-      <iframe  className="w-full mt-10 mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.9125380603897!2d90.34526072176212!3d23.759851934952934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf0045e79315%3A0xd10a669c9c3a5b51!2sNexa%20Developments%20Limited!5e0!3m2!1sen!2sbd!4v1737014749242!5m2!1sen!2sbd" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe  className="w-full mt-12 mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.9125380603897!2d90.34526072176212!3d23.759851934952934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf0045e79315%3A0xd10a669c9c3a5b51!2sNexa%20Developments%20Limited!5e0!3m2!1sen!2sbd!4v1737014749242!5m2!1sen!2sbd" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
     </div>
   );
