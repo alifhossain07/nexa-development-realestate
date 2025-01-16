@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ProjectImage from "@/public/images/featureProject.webp"; // Replace with actual image path
+import ProjectImage from "@/app/images/featureProject.webp"; // Replace with actual image path
 
 const Featured = () => {
   return (

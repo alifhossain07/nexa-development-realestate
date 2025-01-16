@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { IoCall } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi"; // For the hamburger icon
 
-import Logo from "@/public/images/logo.png";
+import Logo from "@/app/icon.png";
 import Link from 'next/link';
 
 const Header = () => {
