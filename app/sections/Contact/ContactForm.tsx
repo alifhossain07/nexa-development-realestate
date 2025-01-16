@@ -26,7 +26,7 @@ const ContactForm = () => {
             icon: <FaPhoneAlt size={30} />,
             title: 'Call Us',
             description: 'Reach us for property consultations:',
-            details: ['+1 (234) 567-890', '+1 (234) 567-891'],
+            details: [' +880-1849222227', '+880-1711659563', '+880-1611111024'],
           },
           {
             icon: <FaEnvelope size={30} />,
@@ -38,7 +38,7 @@ const ContactForm = () => {
             icon: <FaMapMarkerAlt size={30} />,
             title: 'Visit Us',
             description: 'Our office is located at:',
-            details: ['45 Skyline Avenue, Urban Center', 'City, Country, ZIP 45678'],
+            details: ['House- 53, Road- 8, Nabinagar Housing, Mohammadpur, Dhaka- 1207'],
           },
         ].map((item, index) => (
           <div
@@ -58,7 +58,7 @@ const ContactForm = () => {
           </div>
         ))}
       </section>
-
+      <iframe  className="w-full mt-10 mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.9125380603897!2d90.34526072176212!3d23.759851934952934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf0045e79315%3A0xd10a669c9c3a5b51!2sNexa%20Developments%20Limited!5e0!3m2!1sen!2sbd!4v1737014749242!5m2!1sen!2sbd" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
     </div>
   );
