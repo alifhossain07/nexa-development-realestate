@@ -11,7 +11,6 @@ export default function Property() {
      <ProjectOverview></ProjectOverview>
      <Specs></Specs>
      <NexaViews></NexaViews>
-     
     </div>
   );
 }

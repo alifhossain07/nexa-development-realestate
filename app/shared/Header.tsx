@@ -54,15 +54,15 @@ const Header = () => {
                         }`}
                     >
                         <li ><Link href="/">Home</Link> </li> 
-                        <li>About</li>
+                        <li><Link href="/about">About</Link></li>
                         <li><Link href="/properties">Properties</Link></li>
-                        <li>Contact</li>
+                        <li><Link href="/contact">Contact</Link></li>
                     </ul>
 
                     <li
                         className="text-lg gap-2 bg-[#436033] px-2 py-1 rounded-3xl text-white font-text flex font-semibold items-center tracking-wider"
                     >
-                        <IoCall /> +88 01716115775
+                        <IoCall /> +88 01611111024
                     </li>
                 </div>
 
