@@ -8,7 +8,7 @@ import {
 
 const SocialSidebar = () => {
   return (
-    <div className="fixed hidden lg:block top-1/2 right-0 transform -translate-y-1/2 bg-[#375A53] p-4 rounded-r-lg shadow-md space-y-4 z-50">
+    <div className="fixed top-1/2 right-0 transform -translate-y-1/2 bg-[#375A53] p-4 lg:p-4 rounded-r-lg shadow-md space-y-4 z-50">
       {/* Facebook */}
       <a
         href="https://facebook.com"
@@ -16,7 +16,7 @@ const SocialSidebar = () => {
         rel="noopener noreferrer"
         className="block text-white hover:text-[#6F8478] transition-colors duration-300"
       >
-        <FaFacebookF size={24} />
+        <FaFacebookF className="w-5 h-5 lg:w-6 lg:h-6" />
       </a>
 
       {/* Twitter */}
@@ -26,7 +26,7 @@ const SocialSidebar = () => {
         rel="noopener noreferrer"
         className="block text-white hover:text-[#6F8478] transition-colors duration-300"
       >
-        <FaTwitter size={24} />
+        <FaTwitter className="w-5 h-5 lg:w-6 lg:h-6" />
       </a>
 
       {/* LinkedIn */}
@@ -36,7 +36,7 @@ const SocialSidebar = () => {
         rel="noopener noreferrer"
         className="block text-white hover:text-[#6F8478] transition-colors duration-300"
       >
-        <FaLinkedinIn size={24} />
+        <FaLinkedinIn className="w-5 h-5 lg:w-6 lg:h-6" />
       </a>
 
       {/* Instagram */}
@@ -46,7 +46,7 @@ const SocialSidebar = () => {
         rel="noopener noreferrer"
         className="block text-white hover:text-[#6F8478] transition-colors duration-300"
       >
-        <FaInstagram size={24} />
+        <FaInstagram className="w-5 h-5 lg:w-6 lg:h-6" />
       </a>
     </div>
   );
