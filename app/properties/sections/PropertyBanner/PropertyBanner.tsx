@@ -7,7 +7,7 @@ const PropertyBanner = () => {
     <div className="h-[850px]">
       {/* Mobile Background */}
       <div
-        className="lg:hidden flex h-full w-full bg-cover bg-center items-center"git
+        className="lg:hidden flex h-full w-full bg-cover bg-center items-center"
         style={{
           backgroundImage: `url(${PropertyBannerImageMobile.src})`,
         }}
