@@ -33,10 +33,13 @@ export default function RootLayout({
       <body
         className={`${playfairDisplay.variable} ${nunito.variable} antialiased`}
       >
-        <Header></Header>
+         <div suppressHydrationWarning>
+         <Header></Header>
         <AOSWrapper>{children}</AOSWrapper>
         
         <NexaFooter></NexaFooter>
+         </div>
+       
       </body>
     </html>
   );

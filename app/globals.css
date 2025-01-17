@@ -4,6 +4,15 @@
 @import "aos/dist/aos.css";
 /* globals.css or your custom CSS file */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 /* Geist Sans for general text */
 .font-title {
   font-family: var(--font-playfair), sans-serif;
