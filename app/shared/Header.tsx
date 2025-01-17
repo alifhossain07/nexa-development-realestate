@@ -79,12 +79,12 @@ const Header = () => {
 
             {/* Mobile Menu */}
             {isMenuOpen && (
-                <div className="md:hidden bg-[#436033] text-white py-4 px-6">
+                <div className="md:hidden font-title bg-[#436033] text-white py-4 px-6">
                     <ul className="flex flex-col gap-4 text-lg font-semibold">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Properties</li>
-                        <li>Contact</li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/about">About</Link></li>
+                        <li><Link href="/properties">Properties</Link></li>
+                        <li><Link href="/contact">Contact</Link></li>
                         <li className="text-lg gap-2 bg-[#436033] px-2 py-1 rounded-3xl text-white flex font-semibold items-center tracking-wider">
                             <IoCall /> +88 01716115775
                         </li>

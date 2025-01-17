@@ -17,7 +17,7 @@ const TermsConditions = () => {
               <p className="mt-2 text-gray-700">
                 Applications for apartment allotment in Nexa Skyline must be submitted using the
                 prescribed form, signed by the applicant, along with the earnest money and required
-                documents. Allotments are made on a <strong>"first come, first served"</strong> basis.
+                documents. Allotments are made on a <strong>first come, first served</strong> basis.
                 Nexa Developments Limited reserves the right to accept or reject any application
                 without providing reasons.
               </p>
@@ -66,7 +66,7 @@ const TermsConditions = () => {
           <div className="flex font-title items-start space-x-4">
             <FaBuilding className="text-green-500 w-8 h-8 flex-shrink-0" />
             <div>
-              <h2 className="text-2xl font-semibold text-green-600">Developer's Rights</h2>
+              <h2 className="text-2xl font-semibold text-green-600">Developers Rights</h2>
               <p className="mt-2 text-gray-700">
                 The company reserves the right to modify architectural and structural designs as
                 deemed necessary.
@@ -103,7 +103,7 @@ const TermsConditions = () => {
           <div className="flex font-title items-start space-x-4">
             <FaUsers className="text-green-500 w-8 h-8 flex-shrink-0" />
             <div>
-              <h2 className="text-2xl font-semibold text-green-600">Owner's Association</h2>
+              <h2 className="text-2xl font-semibold text-green-600">Owners Association</h2>
               <p className="mt-2 text-gray-700">
                 An Owners Association will be formed to maintain the general affairs of the
                 building, and allottees must comply with its rules and regulations.

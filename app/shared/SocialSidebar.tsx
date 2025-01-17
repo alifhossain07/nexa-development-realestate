@@ -8,7 +8,7 @@ import {
 
 const SocialSidebar = () => {
   return (
-    <div className="fixed top-1/2 right-0 transform -translate-y-1/2 bg-[#375A53] p-4 rounded-r-lg shadow-md space-y-4 z-50">
+    <div className="fixed hidden lg:block top-1/2 right-0 transform -translate-y-1/2 bg-[#375A53] p-4 rounded-r-lg shadow-md space-y-4 z-50">
       {/* Facebook */}
       <a
         href="https://facebook.com"

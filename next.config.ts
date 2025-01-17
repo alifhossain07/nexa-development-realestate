@@ -1,6 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.pravatar.cc',
+        port: '', // Leave empty if there's no specific port
+        pathname: '/**', // Match all paths
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;
