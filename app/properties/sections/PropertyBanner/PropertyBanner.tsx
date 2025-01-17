@@ -1,5 +1,5 @@
 import React from "react";
-import PropertyBannerImageDesktop from "@/public/images/propertyBanner.webp";
+import PropertyBannerImageDesktop from "@/public/images/PropertyBanner.webp";
 import PropertyBannerImageMobile from "@/public/images/PropertyBannerMobile.webp";
 
 const PropertyBanner = () => {
@@ -7,7 +7,7 @@ const PropertyBanner = () => {
     <div className="h-[850px]">
       {/* Mobile Background */}
       <div
-        className="lg:hidden flex h-full w-full bg-cover bg-center items-center"
+        className="lg:hidden flex h-full w-full bg-cover bg-center items-center"git
         style={{
           backgroundImage: `url(${PropertyBannerImageMobile.src})`,
         }}
