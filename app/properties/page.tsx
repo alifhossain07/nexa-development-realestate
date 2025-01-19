@@ -1,3 +1,4 @@
+import SocialSidebar from "../shared/SocialSidebar";
 import GoogleMapEmbed from "./sections/GoogleMapEmbedd/GoogleMapEmbed";
 import NexaViews from "./sections/NexaViews/NexaViews";
 import ProjectOverview from "./sections/ProjectOverview/ProjectOverview";
@@ -11,6 +12,7 @@ export default function Property() {
   
   return (
     <div>
+      <SocialSidebar></SocialSidebar>
      <PropertyBanner></PropertyBanner>
      <ProjectOverview></ProjectOverview>
      <Specs></Specs>

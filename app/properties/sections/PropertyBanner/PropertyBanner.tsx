@@ -4,7 +4,7 @@ import PropertyBannerImageMobile from "@/public/images/PropertyBannerMobile.webp
 
 const PropertyBanner = () => {
   return (
-    <div className="h-[850px]">
+    <div data-aos="fade-down" className="h-[850px]">
       {/* Mobile Background */}
       <div
         className="lg:hidden flex h-full w-full bg-cover bg-center items-center"

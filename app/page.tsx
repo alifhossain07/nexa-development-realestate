@@ -2,7 +2,6 @@
 import Ad from "./sections/Ad/Ad";
 import Banner from "./sections/Banner/Banner";
 import ChooseUs from "./sections/ChooseUs/ChooseUs";
-import ContactForm from "./sections/Contact/ContactForm";
 import Featured from "./sections/Featured/Featured";
 import Services from "./sections/Services/Services";
 import Testimonial from "./sections/Testimonial/Testimonial";
@@ -20,7 +19,7 @@ export default function Home() {
       <Featured></Featured>
       <Testimonial></Testimonial>
       <Ad></Ad>
-      <ContactForm></ContactForm>
+      {/* <ContactForm></ContactForm> */}
     </div>
   );
 }

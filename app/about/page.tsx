@@ -1,8 +1,12 @@
 import Image from "next/image";
 import AboutBackgroundImage from "@/public/images/ad.webp";
+import SocialSidebar from "../shared/SocialSidebar";
+import Link from "next/link";
 
 export default function About() {
   return (
+<div>
+      <SocialSidebar></SocialSidebar>
     <div data-aos="fade-down">
       {/* About Section with Gradient Overlay */}
       <div
@@ -96,10 +100,12 @@ export default function About() {
           properties, or reach out to schedule a site visit and let us help you
           turn your real estate dreams into reality.
         </p>
+        <Link href="/contact">
         <button className="bg-green-500 text-white font-semibold py-3 px-6 rounded-md hover:bg-green-600 transition duration-300">
           Contact Us Today
-        </button>
+        </button></Link>
       </section>
     </div>
+</div>
   );
 }

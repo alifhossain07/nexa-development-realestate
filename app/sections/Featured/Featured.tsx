@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ProjectImage from "@/app/images/featureProject.webp"; // Replace with actual image path
+import Link from "next/link";
 
 const Featured = () => {
   return (
@@ -40,11 +41,12 @@ const Featured = () => {
               <li>Type B: 1230 sqft (Approx.)</li>
             </ul>
           </ul>
+          <Link href="/properties">
           <button
             className="mt-8 px-2 py-1 lg:px-6 lg:py-3 bg-[#436033] text-white font-bold rounded-lg shadow-lg hover:bg-[#3a4f2d] transition duration-300"
           >
             Learn More
-          </button>
+          </button></Link>
         </div>
 
         {/* Right Side: Project Image */}

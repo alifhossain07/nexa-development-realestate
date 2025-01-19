@@ -11,7 +11,7 @@ const SocialSidebar = () => {
     <div className="fixed top-1/2 right-0 transform -translate-y-1/2 bg-[#375A53] p-4 lg:p-4 rounded-r-lg shadow-md space-y-4 z-50">
       {/* Facebook */}
       <a
-        href="https://facebook.com"
+        href="https://www.facebook.com/nexadevelopments/"
         target="_blank"
         rel="noopener noreferrer"
         className="block text-white hover:text-[#6F8478] transition-colors duration-300"
@@ -21,7 +21,7 @@ const SocialSidebar = () => {
 
       {/* Twitter */}
       <a
-        href="https://twitter.com"
+        href="https://x.com/nexadevelopments"
         target="_blank"
         rel="noopener noreferrer"
         className="block text-white hover:text-[#6F8478] transition-colors duration-300"
@@ -31,7 +31,7 @@ const SocialSidebar = () => {
 
       {/* LinkedIn */}
       <a
-        href="https://linkedin.com"
+        href="https://linkedin.com/nexadevelopments"
         target="_blank"
         rel="noopener noreferrer"
         className="block text-white hover:text-[#6F8478] transition-colors duration-300"
@@ -41,7 +41,7 @@ const SocialSidebar = () => {
 
       {/* Instagram */}
       <a
-        href="https://instagram.com"
+        href="https://instagram.com/nexadevelopments"
         target="_blank"
         rel="noopener noreferrer"
         className="block text-white hover:text-[#6F8478] transition-colors duration-300"
