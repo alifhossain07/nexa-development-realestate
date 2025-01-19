@@ -1,26 +1,34 @@
 import Image from "next/image";
+import AboutBackgroundImage from "@/public/images/ad.webp";
 
 export default function About() {
   return (
-    <div className="py-32 w-10/12 mx-auto">
-      {/* About Section */}
-      <section className="text-center mb-16">
-        <h1 className="text-3xl lg:text-4xl font-title font-bold uppercase text-black mb-6">
-          About <span className="text-green-500">Nexa Developments Limited</span>
-        </h1>
-        <p className="lg:text-xl text-base font-text text-gray-600 leading-relaxed max-w-3xl mx-auto">
-          Nexa Developments is a premier real estate company committed to
-          delivering modern, sustainable, and affordable solutions for all your
-          real estate needs. With an impressive portfolio of residential,
-          commercial, and mixed-use properties, we strive to redefine urban
-          living by focusing on innovation, quality, and sustainability. Our
-          approach is deeply rooted in understanding client aspirations and
-          exceeding expectations through excellence.
-        </p>
-      </section>
+    <div data-aos="fade-down">
+      {/* About Section with Gradient Overlay */}
+      <div
+        className="relative h-[500px] lg:h-[700px] bg-cover bg-center text-center mb-16 flex items-center justify-center"
+        style={{
+          backgroundImage: `url(${AboutBackgroundImage.src})`,
+        }}
+      >
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30 z-0"></div>
+
+        {/* Content */}
+        <div className="relative z-10 px-4 lg:px-0 max-w-3xl text-center">
+          <h1 className="text-2xl lg:text-4xl font-title font-bold uppercase text-white mb-6">
+            About <span className="text-green-500">Nexa Developments Limited</span>
+          </h1>
+          <p className="lg:text-xl text-lg font-text text-white leading-relaxed">
+            Nexa Developments is a premier real estate company committed to
+            delivering modern, sustainable, and affordable solutions for all your
+            real estate needs. 
+          </p>
+        </div>
+      </div>
 
       {/* Vision and Mission */}
-      <section className="mb-16">
+      <section className="mb-16 w-10/12 mx-auto">
         <h2 className="text-2xl lg:text-3xl font-title font-semibold text-black mb-4 text-center">
           Our Vision & Mission
         </h2>
@@ -35,7 +43,7 @@ export default function About() {
       </section>
 
       {/* Unique Selling Points */}
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
+      <section className="grid grid-cols-1 w-10/12 mx-auto md:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
         {[
           {
             title: "Sustainability",
