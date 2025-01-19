@@ -10,6 +10,7 @@ import {
 } from "react-icons/bs";
 import Logo from "@/public/images/logo.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const NexaFooter = () => {
   return (
@@ -30,9 +31,9 @@ const NexaFooter = () => {
             <div>
               <Footer.Title title="About Us" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Our Vision</Footer.Link>
-                <Footer.Link href="#">Our Team</Footer.Link>
-                <Footer.Link href="#">Projects</Footer.Link>
+                <Link href="/about">Our Vision</Link>
+                <Link href="/about">Our Team</Link>
+                <Link href="/properties">Projects</Link>
               </Footer.LinkGroup>
             </div>
 
@@ -40,9 +41,9 @@ const NexaFooter = () => {
             <div>
               <Footer.Title title="Quick Links" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Contact Us</Footer.Link>
-                <Footer.Link href="#">FAQs</Footer.Link>
-                <Footer.Link href="#">Site Map</Footer.Link>
+                <Link href="/contact">Contact Us</Link>
+                <Link href="/contact">FAQs</Link>
+                <Link href="/contact">Site Map</Link>
               </Footer.LinkGroup>
             </div>
 
@@ -50,8 +51,8 @@ const NexaFooter = () => {
             <div>
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Terms & Conditions</Footer.Link>
+                <Link href="#">Privacy Policy</Link>
+                <Link href="#">Terms & Conditions</Link>
               </Footer.LinkGroup>
             </div>
           </div>
